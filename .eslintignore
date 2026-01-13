@@ -1,0 +1,11 @@
+node_modules
+.vscode
+coverage
+public
+src\presentation\css
+*.css
+.env
+*.js
+**/*d.ts
+src/index.tsx
+examples/
