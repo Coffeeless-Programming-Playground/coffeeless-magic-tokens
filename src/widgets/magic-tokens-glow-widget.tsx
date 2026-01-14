@@ -49,7 +49,6 @@ const MagicTokensGlowWidget: React.FC<MagicTokensGlowWidgetProps> = ({
   textFontFamily = 'monospace',
   expandButtonBackground = '#CCC',
   expandButtonColor = 'rgba(151, 0, 255, 0.5)',
-  expandButtonBorderColor = 'rgba(151, 0, 255, 0.5)',
   gradientStartColor = 'rgba(0, 0, 0, 0)',
   gradientEndColor = 'rgba(0, 0, 0, 0.9)',
   expanded,
