@@ -1,5 +1,5 @@
 {
-  "name": "@coffeeless-programming/coffeeless-magic-tokens",
+  "name": "@coffeelessprogrammingplayground/coffeeless-magic-tokens",
   "description": "A react component for displaying streaming text such as streaming LLMs responses.",
   "version": "1.0.0",
   "main": "dist/index.js",
