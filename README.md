@@ -31,7 +31,6 @@ The `MagicTokensGlowWidget` accepts the following customizable props:
 - textFontFamily?: string;
 - expandButtonBackground?: string;
 - expandButtonColor?: string;
-- expandButtonBorderColor?: string;
 - gradientStartColor?: string;
 - gradientEndColor?: string;
 - expanded: boolean;
@@ -53,6 +52,5 @@ These themes contain the following color string props for the `MagicTokensGlowWi
 - `INNER_BOX_SHADOW_OUTSET`
 - `EXPAND_BUTTON_BACKGROUND`
 - `EXPAND_BUTTON_COLOR`
-- `EXPAND_BUTTON_BORDER_COLOR`
 - `GRADIENT_START_COLOR`
 - `GRADIENT_END_COLOR`
