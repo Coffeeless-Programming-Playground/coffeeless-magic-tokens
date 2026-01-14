@@ -2,6 +2,7 @@ export enum ThemeColors {
   WHITE = '#fff',
   GHOST_WHITE = 'rgb(240, 240, 255)',
   BLACK = '#000',
+  RED = '#f00',
   BLUE = '#00f',
   MEDIUM_GRAY = '#666',
   LIGHT_GRAY = '#CCC',
