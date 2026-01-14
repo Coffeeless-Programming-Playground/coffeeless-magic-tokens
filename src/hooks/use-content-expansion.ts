@@ -32,7 +32,7 @@ export function useContentExpansion(
     const resizeObserver = new ResizeObserver(measure)
     resizeObserver.observe(el)
     return () => resizeObserver.disconnect()
-  }, [contentRef, collapsedHeight])
+  }, [])
 
   const maxHeight: number | 'auto' = expanded ? contentRef.current?.scrollHeight ?? 'auto' : collapsedHeight
   const toggleExpansion = () => setExpanded(v => !v)
