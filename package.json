@@ -31,7 +31,7 @@
     "hoc"
   ],
   "author": "Ronny Toribio <130106273+ronny-toribio@users.noreply.github.com>",
-  "license": "ISC",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/issues"
   },
