@@ -1,4 +1,13 @@
-# 1.1.0 (2026-01-14)
+# [1.2.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/v1.1.0...v1.2.0) (2026-01-14)
+
+
+### Features
+
+* add red to theme colors ([f2308f4](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/commit/f2308f4df2629b3eb04715a8e8afb20d1a395b6d))
+
+
+
+# [1.1.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/64bf7b6bc25d763021ed03132d5e81555773b2ed...v1.1.0) (2026-01-14)
 
 
 ### Features
