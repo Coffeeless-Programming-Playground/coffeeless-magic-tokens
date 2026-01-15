@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/v1.2.0...v1.3.0) (2026-01-15)
+
+
+### Features
+
+* change package scope ([d05d53f](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/commit/d05d53fa5de4eb8ee3e22f47d8ea036142475b35))
+
+
+
 # [1.2.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/v1.1.0...v1.2.0) (2026-01-14)
 
 
