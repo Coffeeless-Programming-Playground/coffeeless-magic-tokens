@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/v1.3.0...v1.4.0) (2026-01-15)
+
+
+### Features
+
+* update tsconfig ([5cf7050](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/commit/5cf7050c68586ebf52082a092155bb9712177f0e))
+
+
+
 # [1.3.0](https://github.com/Coffeeless-Programming-Playground/MagicTokensWidget/compare/v1.2.0...v1.3.0) (2026-01-15)
 
 
