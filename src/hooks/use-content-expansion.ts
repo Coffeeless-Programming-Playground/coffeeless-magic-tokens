@@ -1,4 +1,4 @@
-import { RefObject, useEffect, useState } from 'react';
+import { type RefObject, useEffect, useState } from 'react';
 
 interface ContentExpansionResult {
   expanded: boolean;
@@ -8,7 +8,7 @@ interface ContentExpansionResult {
 }
 
 export function useContentExpansion(
-  contentRef: RefObject<HTMLDivElement>,
+  contentRef: RefObject<HTMLDivElement | null>,
   collapsedHeight: number
 ): ContentExpansionResult {
   const [expanded, setExpanded] = useState(false)
