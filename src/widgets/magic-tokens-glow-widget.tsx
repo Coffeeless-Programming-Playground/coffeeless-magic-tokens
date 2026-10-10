@@ -1,4 +1,5 @@
-const { version } = require('../../package.json')
+import packageJson from "../../package.json"
+const { version } = packageJson
 
 interface MagicTokensGlowWidgetProps {
   textAnimationContainerRef: React.Ref<HTMLDivElement>;

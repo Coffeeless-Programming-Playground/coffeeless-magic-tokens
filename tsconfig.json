@@ -2,10 +2,10 @@
   "compilerOptions": {
     "outDir": "./dist",
     "rootDir": "./src",
-    "target": "es6",
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": ["dom", "dom.iterable", "ES2022"],
     "esModuleInterop": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -14,12 +14,13 @@
     "jsx": "react-jsx",
     "skipLibCheck": true,
     "noFallthroughCasesInSwitch": true,
-    "baseUrl": "src",
     "resolveJsonModule": true,
-    "isolatedModules": false,
+    "isolatedModules": true,
     "forceConsistentCasingInFileNames": true,
     "strictNullChecks": true,
-    "noEmit": false
+    "noEmit": false,
+    "verbatimModuleSyntax": true,
+    "declarationMap": true
   },
   "include": ["src"],
   "exclude": ["**/*.spec.ts"]
