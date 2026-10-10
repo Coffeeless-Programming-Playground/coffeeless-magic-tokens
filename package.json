@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "dev": "npm run build & npm run serve",
-    "build": "npm run clean && tsc --p tsconfig.build.json && npm run copy-files",
+    "build": "npm run clean && npm run copy-files && node scripts/bundle.mjs",
     "serve": "npx http-server@latest -p 8000",
     "test": "jest --passWithNoTests --no-cache --runInBand",
     "test:unit": "npm test -- --watch -c jest-unit.config.js",
@@ -42,6 +42,7 @@
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
     "copyfiles": "^2.4.1",
+    "esbuild": "^0.28.2",
     "eslint-config-standard-with-typescript": "^43.0.1",
     "eslint-plugin-react": "^7.33.2",
     "husky": "^9.1.7",
